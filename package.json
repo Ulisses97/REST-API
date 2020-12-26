@@ -1,0 +1,26 @@
+{
+  "name": "REST-API",
+  "version": "1.0.0",
+  "description": "Criando uma API com autentificação",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ulisses97/REST-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ulisses97/REST-API/issues"
+  },
+  "homepage": "https://github.com/Ulisses97/REST-API#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
