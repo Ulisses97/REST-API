@@ -9,10 +9,6 @@ const rotasPedidos = require('./routes/pedidos');
 server.use('/produtos', rotasProdutos);
 server.use('/pedidos', rotasPedidos);
 
-// server.use('/', (req,res) => {
-//   res.send("Ok")
-// })
-
 // Tratamentos para url desconhecida
 server.use((req,res, next) => {
   const erro = new Error ('Não Encontrado');
